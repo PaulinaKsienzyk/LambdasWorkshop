@@ -35,10 +35,10 @@ public class WomenCalculator implements PeopleCalculator{
     @Override
     public int sum(List<Person> people) {
         int sum = 0;
-        for (int i=0; i<people.size(); i++) {
+        for (int i=1; i<=people.size(); i++) {
             Person person = people.get(i);
             if (person.age() >= 18 && person.gender().equals(Person.Gender.FEMALE)) {
-                sum += 1;
+                sum += sum;
             }
         }
         return sum;
