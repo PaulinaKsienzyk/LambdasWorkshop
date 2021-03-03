@@ -1,1 +1,18 @@
 # LambdasWorkshop
+
+During the workshops, we will focus on the advantages of lambdas. What do we need the for?
+->Lambda expression is a function so we need them in functional programming.<-
+
+Agenda.
+ 1. Why old-fashioned external iteration is error prone?
+  a) Check and correct bugs,
+  b) refactor to anonymous class,
+  c) refactor to lambda expression.
+
+ 2. When lambda calls a method... Method references - less code, more readable code!
+
+ 3. Functional interfaces - link them all.
+
+ 4. Bonus! Can lambda expression be used to define recursive functions? Let's check it!
+
+Enjoy!
