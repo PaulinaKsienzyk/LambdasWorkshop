@@ -3,6 +3,10 @@ package paulinaksienzyk.com.github.task2;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * When you finish
+ * @see paulinaksienzyk.com.github.task3.FunctionalInterfaces
+ */
 public class Station {
 
     public static void main(String[] args) {
