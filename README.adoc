@@ -17,4 +17,4 @@ Agenda.
 
 Enjoy!
 
-First: paulinaksienzyk/com/github/task1/WomenCalculator.java
+First: paulinaksienzyk.com.github.task1.WomenCalculator

@@ -2,6 +2,10 @@ package paulinaksienzyk.com.github.task1;
 
 import java.util.List;
 
+/**
+ * When you finish
+ * @see paulinaksienzyk.com.github.task2.Station
+ */
 public class WomenCalculator implements PeopleCalculator{
 
     public static void main(String[] args) {
