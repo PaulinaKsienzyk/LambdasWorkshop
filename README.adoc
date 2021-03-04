@@ -1,20 +1,21 @@
 
-# LambdasWorkshop
+= LambdasWorkshop
 
-During the workshops, we will focus on the advantages of lambdas. What do we need the for?
+During the workshops, we will focus on the advantages of lambdas.What do we need the for?
 
 Agenda.
 
 1. Why old-fashioned external iteration is error prone?
-  a) Check and correct bugs,
-  b) refactor to anonymous class,
-  c) refactor to lambda expression.
+a) Check and correct bugs,
+b) replace loop with streams,
+b) refactor to anonymous class,
+c) refactor to lambda expression.
 
- 2. When lambda calls a method... Method references - less code, more readable code!
+2. When lambda calls a method... Method references - less code, more readable code!
 
- 3. Compose functional interfaces - inspiration from one of the side quests;-) (Pawel K, who was not at the pre-academy - those were extra tasks.
+3. Compose functional interfaces - inspiration from one of the side quests;-) (Pawel K, who was not at the pre-academy - those were extra tasks.
 
- 4. Bonus! Can lambda expression be used to define recursive functions? Let's check it!
+4. Bonus!Can lambda expression be used to define recursive functions?Let's check it!
 
 Enjoy!
 
