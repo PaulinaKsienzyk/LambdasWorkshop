@@ -11,15 +11,15 @@ public class FunctionalInterfaces {
     }
 
     //TODO Change this method to create a simple rhyme together.
-    // a) List czesciWierszyka should include references to the kitty's methods.
+    // a) List partsOfRhyme should include references to the kitty's methods.
     // b) Then compose the whole as one Supplier.
     private static void composeSuppliers() {
         WlazlKotek kitty = new WlazlKotek();
-        List<Supplier<String>> czesciWierszyka = List.of();
+        List<Supplier<String>> partsOfRhyme = List.of();
 
-        Supplier<String> calyWierszyk = () -> "correct me";
+        Supplier<String> wholeRhyme = () -> "correct me";
+        String result = wholeRhyme.get();
 
-        String result = calyWierszyk.get();
         if (!("Wlazl kotek na potek i mruga, ladna to piosenka niedluga.\nNie dluga, nie krotka, " +
                 "lecz w sam raz, zaspiewaj koteczku jeszcze raz.").equals(result)) {
             throw new RuntimeException("Result is incorrect!");

@@ -2,15 +2,15 @@ package paulinaksienzyk.com.github.task3;
 
 class WlazlKotek {
 
-    String coIKtoZrobil() {
+    String whatAndWhoDid() {
         return "Wlazl kotek na potek i mruga";
     }
 
-    String jakaToPiosenka() {
+    String whatIsTheSong() {
         return "ladna to piosenka niedluga.\nNie dluga, nie krotka, lecz w sam raz";
     }
 
-    String aCoNaKoncu() {
+    String andFinally() {
         return "zaspiewaj koteczku jeszcze raz.";
     }
 }
