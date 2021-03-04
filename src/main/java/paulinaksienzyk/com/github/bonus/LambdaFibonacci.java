@@ -9,7 +9,7 @@ class LambdaFibonacci {
     // 1. Implement method fibonacci
     public static void main(String[] args) {
 
-        IntStream.range(1,9)
+        IntStream.range(0,9)
                 .boxed()
                 .map(fibonacci())
                 .forEach(System.out::println);
