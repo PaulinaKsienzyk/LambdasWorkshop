@@ -23,6 +23,10 @@ class Ticket {
         return discount;
     }
 
+    public double price() {
+        return price;
+    }
+
     @Override
     public String toString() {
         return "Ticket price: " + price;
