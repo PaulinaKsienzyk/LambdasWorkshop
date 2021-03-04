@@ -23,9 +23,8 @@ class Ticket {
         return discount;
     }
 
-    @Override
-    public String toString() {
-        return "Ticket price: " + price;
+    public double price() {
+        return price;
     }
 
     enum DiscountType {
