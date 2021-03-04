@@ -1,7 +1,7 @@
 
 = LambdasWorkshop
 
-During the workshops, we will focus on the advantages of lambdas.What do we need the for?
+During the workshops, we will focus on the advantages of lambdas.What do we need them for?
 
 Agenda.
 
