@@ -6,7 +6,7 @@ import java.util.List;
  * When you finish
  * @see paulinaksienzyk.com.github.task2.Station
  */
-public class WomenCalculator implements PeopleCalculator{
+public class WomenCalculator{
 
     public static void main(String[] args) {
         List<Person> people = List.of(
@@ -20,7 +20,9 @@ public class WomenCalculator implements PeopleCalculator{
         );
 
         WomenCalculator calculator = new WomenCalculator();
-        int adultWomen = calculator.sum(people);
+        int adultWomen = calculator.sumWomen(people);
+
+//        PeopleCalculator peopleCalculator = ?
 
         if (adultWomen == 3 ) {
             System.out.println(adultWomen + " is a correct number of women, bravo!");
@@ -32,12 +34,12 @@ public class WomenCalculator implements PeopleCalculator{
 
     //TODO Below you have the code that represents old-fashioned external iteration.
     // a) Fix the bugs.
-    // b) Refactor to anonymous class which will include this method.
-    // c) Refactor to lambda expression.
-    // Every step should be visible in code - comment previous ones - don't duplicate, just duplicate and correct!
+    // b) Replace loop with streams.
+    // c) In main create anonymous class of PeopleCalculator which will include this method. (In sum() use sumWomen()).
+    // d) Refactor anonymous class to lambda expression.
+    // Every step should be visible in code - comment previous ones - don't delete, just duplicate and correct!
     // (or commit each step).
-    @Override
-    public int sum(List<Person> people) {
+    public int sumWomen(List<Person> people) {
         int sum = 0;
         for (int i=1; i<=people.size(); i++) {
             Person person = people.get(i);
