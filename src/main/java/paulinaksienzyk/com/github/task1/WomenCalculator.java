@@ -33,7 +33,7 @@ public class WomenCalculator{
     }
 
     //TODO Below you have the code that represents old-fashioned external iteration.
-    // a) Fix the bugs.
+    // a) Fix the bugs in loop.
     // b) Replace loop with streams.
     // c) In main create anonymous class of PeopleCalculator which will include this method. (In sum() use sumWomen()).
     // d) Refactor anonymous class to lambda expression.
