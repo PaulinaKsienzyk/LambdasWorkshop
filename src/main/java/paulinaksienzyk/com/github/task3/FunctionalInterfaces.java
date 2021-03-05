@@ -20,8 +20,8 @@ public class FunctionalInterfaces {
         Supplier<String> wholeRhyme = () -> "correct me";
         String result = wholeRhyme.get();
 
-        if (!("Wlazl kotek na potek i mruga, ladna to piosenka niedluga.\nNie dluga, nie krotka, " +
-                "lecz w sam raz, zaspiewaj koteczku jeszcze raz.").equals(result)) {
+        if (!("Włazł kotek na płotek i mruga, ładna to piosenka niedługa.\nNie długa, nie krótka, lecz w sam raz, " +
+                "zaśpiewaj koteczku jeszcze raz.").equals(result)) {
             throw new RuntimeException("Result is incorrect!");
         }
     }

@@ -3,7 +3,7 @@ package paulinaksienzyk.com.github.task3;
 class WlazlKotek {
 
     String whatAndWhoDid() {
-        return "Wlazl kotek na potek i mruga";
+        return "Włazł kotek na płotek i mruga";
     }
 
     String whatIsTheSong() {
