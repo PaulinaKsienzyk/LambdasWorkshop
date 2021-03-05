@@ -19,6 +19,6 @@ c) refactor to lambda expression.
 
 Enjoy!
 
-Usful link from Tomasz: http://lambdafaq.orghttp//www.lambdafaq.org/
+Usful link from Tomasz: http//www.lambdafaq.org/
 
 First: paulinaksienzyk.com.github.task1.WomenCalculator
