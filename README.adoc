@@ -1,24 +1,20 @@
+= Simple Lambdas Workshop
 
-= LambdasWorkshop
-
-During the workshops, we will focus on the advantages of lambdas.What do we need them for?
+During the workshop, we will focus on the advantages of lambdas. What do we need them for?
 
 Agenda.
 
-1. Why old-fashioned external iteration is error prone?
-a) Check and correct bugs,
-b) replace loop with streams,
-b) refactor to anonymous class,
-c) refactor to lambda expression.
-
-2. When lambda calls a method... Method references - less code, more readable code!
-
-3. Compose functional interfaces - inspiration from one of the side quests;-) (Pawel K, who was not at the pre-academy - those were extra tasks.
-
-4. Bonus!Can lambda expression be used to define recursive functions?Let's check it!
+. Why old-fashioned external iteration is error prone?
+.. Check and correct bugs,
+.. replace loop with streams,
+.. refactor to anonymous class,
+.. refactor to lambda expression.
+. When lambda calls a method... Method references - less code, more readable code!
+. Compose functional interfaces - inspiration from one of the side quests;-) (Pawel K, who was not at the pre-academy - those were extra tasks.
+. Bonus! Can lambda expression be used to define recursive functions? Let's check it!
 
 Enjoy!
 
-Usful link from Tomasz: http//www.lambdafaq.org/
+TIP: Useful link from Tomasz: http//www.lambdafaq.org/
 
-First: paulinaksienzyk.com.github.task1.WomenCalculator
+*Begin with*: paulinaksienzyk.com.github.task1.WomenCalculator
