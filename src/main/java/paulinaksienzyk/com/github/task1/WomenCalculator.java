@@ -1,12 +1,24 @@
 package paulinaksienzyk.com.github.task1;
 
+import paulinaksienzyk.com.github.task2.Station;
+
 import java.util.List;
 
 /**
- * When you finish
- * @see paulinaksienzyk.com.github.task2.Station
+ *  In {@link WomenCalculator#sumWomen} you have the code that represents old-fashioned external iteration. TODO:
+ *   <li>Fix the bugs in a loop.</li>
+ *   <li>Replace the loop with streams.</li>
+ *   <li>In main, create anonymous class of {@link PeopleCalculator} which will include this method. Use {@code sumWomen()} in {@code sum()}).</li>
+ *   <li>Refactor anonymous class to lambda expression.</li>
+ *   <p>
+ *   Every step should be visible in code - comment previous ones out - don't delete, just duplicate and correct!
+ *   (or commit each step).
+ * </p><br/>
+ * Your next task is task 2, start with {@code Station} class.
+ * @see PeopleCalculator
+ * @see Station
  */
-public class WomenCalculator{
+public class WomenCalculator {
 
     public static void main(String[] args) {
         List<Person> people = List.of(
@@ -22,7 +34,7 @@ public class WomenCalculator{
         WomenCalculator calculator = new WomenCalculator();
         int adultWomen = calculator.sumWomen(people);
 
-//        PeopleCalculator peopleCalculator = ?
+//      TODO: anonymous class  PeopleCalculator peopleCalculator = ?
 
         if (adultWomen == 3 ) {
             System.out.println(adultWomen + " is a correct number of women, bravo!");
@@ -32,13 +44,11 @@ public class WomenCalculator{
 
     }
 
-    //TODO Below you have the code that represents old-fashioned external iteration.
-    // a) Fix the bugs in loop.
-    // b) Replace loop with streams.
-    // c) In main create anonymous class of PeopleCalculator which will include this method. (In sum() use sumWomen()).
-    // d) Refactor anonymous class to lambda expression.
-    // Every step should be visible in code - comment previous ones - don't delete, just duplicate and correct!
-    // (or commit each step).
+    /**
+     * TODO: iteration problems to fix and rework in streams
+     * @param people list of poeple to iterate on
+     * @return number of adult women in the given list
+     */
     public int sumWomen(List<Person> people) {
         int sum = 0;
         for (int i=1; i<=people.size(); i++) {
