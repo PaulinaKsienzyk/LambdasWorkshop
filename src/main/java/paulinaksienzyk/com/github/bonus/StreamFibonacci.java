@@ -3,7 +3,7 @@ package paulinaksienzyk.com.github.bonus;
 import java.util.function.Function;
 import java.util.stream.IntStream;
 
-class LambdaFibonacci {
+class StreamFibonacci {
 
     //TODO Try to print Fibonacci numbers using streams. Steps:
     // 1. Implement method fibonacci.

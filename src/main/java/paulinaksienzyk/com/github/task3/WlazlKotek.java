@@ -7,10 +7,10 @@ class WlazlKotek {
     }
 
     String whatIsTheSong() {
-        return "ladna to piosenka niedluga.\nNie dluga, nie krotka, lecz w sam raz";
+        return "ładna to piosenka niedługa.\nNie długa, nie krótka, lecz w sam raz";
     }
 
     String andFinally() {
-        return "zaspiewaj koteczku jeszcze raz.";
+        return "zaśpiewaj koteczku jeszcze raz.";
     }
 }

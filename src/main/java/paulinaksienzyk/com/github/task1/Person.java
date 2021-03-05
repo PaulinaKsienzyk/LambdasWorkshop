@@ -1,6 +1,6 @@
 package paulinaksienzyk.com.github.task1;
 
-public class Person {
+class Person {
 
     private final Gender gender;
     private int age;
